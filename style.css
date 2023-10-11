@@ -1,0 +1,96 @@
+body{   font-family: 'Caveat', cursive;
+        font-family: 'Fraunces', serif;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        background-color: rgba(84, 189, 241, 0.23);}
+        
+
+.container{ background-color: red;
+            height: 600px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background-color: white;}
+
+.top{   background-color: blue;
+        height: 30%;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;}
+
+.image{ width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;}
+
+.bottom{    display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 65%;
+            background-color: whi;}
+
+.title{ text-align: center;}
+
+.title > h2{    margin-bottom: 0;
+                margin-top: 40px;}
+
+.paragraph{ width: 70%;
+            text-align: center;}
+
+p{  margin-bottom: 35px;
+    color: rgb(154, 159, 162);}
+
+.details{   display: grid;
+            background-color: rgb(246, 246, 251);
+            border-radius: 15px;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 48px;
+            padding: 15px 10px;}
+
+.music-icon{    margin-right: 20px;}
+
+.spec{  font-size: 14px;
+        margin-left: 3px;
+        color: rgb(177, 182, 186);}
+
+.detail2 > h4{   margin: 2px 0px 0px 0px;}
+
+.detail3 > h5{ margin: 0;
+                line-height: 48px;
+                color: hsl(241, 100%, 41%);
+                margin-left: 15px;}
+
+.proceed{   background-color: rgb(16, 16, 130);
+            border-radius: 10px;
+            height: 50px;
+            text-align: center;
+            color: white;
+            width: 74%;
+            margin-top: 30px;
+            box-shadow: 0px 5px 15px 1px   rgb(156, 188, 219);}
+
+.proceed > h5 { margin: 0;
+                line-height: 50px;}
+
+.attribution {  font-size: 11px; text-align: center; 
+                margin-top: 30px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
